@@ -14,7 +14,7 @@ class Zone {
     this.y=y;
     this.w=w;
     this.h=h;
-    pg = createGraphics(w, h);
+    pg = createGraphics(w, h,P2D);
     pg.beginDraw();
     pg.clear();
     pg.endDraw();

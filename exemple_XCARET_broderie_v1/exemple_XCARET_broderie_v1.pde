@@ -5,7 +5,7 @@ Zone zone3;
 
 void setup(){
    //size(800,800);
-   fullScreen();
+   fullScreen(P2D);
    zone1 = new Zone(0,0,400,400);
    zone1.freq = 4;
    zone1.setInc(26,30);

@@ -7,10 +7,11 @@ void setup() {
   frameRate(60);
 }
 
-//fonction infinie (boucle)
+
+//fonction de dessin
 void draw(){
   fill(random(255),random(255));
-  //x,y,largeur,hauteur
+  
   noStroke();
   rect(random(width),random(height),60,60);
   
